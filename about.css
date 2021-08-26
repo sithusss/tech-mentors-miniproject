@@ -28,3 +28,56 @@
     text-align: center;
     color: rgba(75, 206, 140, 0.61);
 }
+
+@media only screen and (max-width: 1100px){
+    .about{
+        background-color: rgba(222, 226, 226, 0.884);
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .about{
+        background-color: rgba(222, 226, 226, 0.884);
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column ;
+
+        
+    }
+     .img{
+       display: none;
+    }
+    .about p{
+        margin: 1px 13px;
+        color: rgb(9, 0, 51);
+        font-family: monospace;
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+
+}
+@media only screen and (max-width: 350px){
+    .about{
+        background-color: rgba(222, 226, 226, 0.884);
+        
+        
+    }
+    .container{
+        display: flex;
+        
+    }
+    
+    .about p{
+        margin: 1px 13px;
+        color: rgb(9, 0, 51);
+        font-family: monospace;
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+    .img{
+        display: none;
+     }
+}

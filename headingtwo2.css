@@ -1,0 +1,116 @@
+.searchbar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: rgb(78, 78, 78);
+    align-items: center;
+     background-color: #333;
+}
+.links{
+   
+    overflow:hidden; 
+   
+    margin-right: 80px;
+}
+
+
+
+.links a{
+  
+   
+    float: left;
+    background-color: #20163b;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.links a:hover{
+    color: rgb(53, 0, 50);
+    background-color: rgb(201, 229, 253);
+    padding: 12px 16px;
+    text-decoration: none;
+    
+  }
+
+#apply{
+    width: 150px;
+    height:50px;
+    background-color: rgb(243, 206, 103);
+    color: rgb(82, 0, 0);
+    font-size: 24px;
+    border-radius: 5px;
+    border-color: rgb(255, 219, 171);
+    font-family:unset;
+    float: right;
+    margin-right:30px;
+}
+#apply:hover{
+    background-color: rgb(190, 153, 50);
+    color: rgb(234, 248, 207);
+    border-color: rgb(190, 153, 50);
+}
+
+.links .index {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color:  #333;
+    color: white;
+    padding:15px ;
+    
+}
+.links .staff {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color:  #333;
+    color: white;
+    padding:15px ;
+}
+.links .dropdown .dropbtn {
+    width: 110px;
+    height: 50px;
+    border: none;
+    background-color:  #333;
+    color: white;
+    padding:15px ;
+}
+
+
+.links .index:hover{
+    background-color: white;
+    color: black;
+}
+.links .staff:hover{
+    background-color: white;
+    color: black;
+}
+.links .dropdown .dropbtn:hover{
+    background-color: white;
+    color: black;
+    
+}
+.links{
+    display: grid;
+    grid-template-columns: 90px 100px 110px;
+    
+}
+.dropdown-content {
+    font-size: 24px;
+    font-family: sans-serif;
+    display: none;
+    position: absolute;
+   
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: grid;
+    grid-template-rows: auto ;
+    
+}

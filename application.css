@@ -1,0 +1,128 @@
+body{
+	margin:0px;
+}
+
+.container2{
+    margin: 50px ;
+    
+}
+form div{
+    margin-bottom: 15px;
+    font-family: Helvetica;
+    margin-left: 40px;
+    
+}
+form label{
+    margin-left: 10px;
+}
+caption{
+	font-size:20px;
+}
+
+
+.p{
+	font-size:20px;
+	
+}
+.appli{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 34px;
+    color: #025202;
+}
+.nametag{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 20px;
+}
+
+#badge{
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 60%;
+}
+.uni_name{
+    margin: 0%;
+    font-size: 54px;
+    font-family: fantasy;
+    color: #051605;
+}
+.sub{
+    margin: 0%;
+    font-size: 20px;
+    font-family: monospace;
+    color: #616161;
+}
+.button2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+   
+
+}
+
+input[type=text],select{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-sizing:border-box;
+   
+}
+		
+input[type=submit]{
+    border: none;
+	background-color:rgb(82, 38, 204);
+	color: rgb(255, 255, 255);
+    float: right;
+    margin-left: 50px;
+    text-align:center;
+	font-size:14px;
+	cursor:pointer; 
+	border-radius:10px;
+	width: 200px;
+    
+}
+
+input[type=reset]{
+	background-color:rgb(116, 116, 116);
+	color: rgb(255, 255, 255);
+	height: 40px;
+	text-align:center;
+	font-size:14px;
+    border: none;
+	cursor:pointer; 
+	border-radius:10px;
+	width: 100px;
+}
+
+textarea{
+	width:100%;
+	padding:12px 20px;
+	height:150px;
+	margin:8px 0;
+	resize:none;
+	border:1px solid #ccc;
+	border-radius:8px;
+	box-sizing:border-box;
+}
+
+		
+form{
+			
+			
+    border-radius:5px;
+	background-color:rgb(242, 242, 242);
+	padding: 20px;}
+			
+input[type="submit"]:hover{
+    background-color: darkblue;
+
+}
+input[type="reset"]:hover{
+    background-color: rgb(83, 83, 83);
+
+}

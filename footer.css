@@ -1,0 +1,27 @@
+
+footer{
+   
+    margin-bottom: 0%;
+    margin-top: 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    background-color: rgb(8, 0, 82);
+    /*justify-content: space-between;*/
+    color: rgb(230, 230, 230);
+    position:sticky;
+  
+   
+    
+
+}
+p{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    padding-top:0.5px;
+}
+#logoone2{
+    margin-top: 4px;
+    width: 50px;
+   border-radius: 100%
+}

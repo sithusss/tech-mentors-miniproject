@@ -1,0 +1,30 @@
+.about p{
+    margin: 1px 13px;
+    color: rgb(9, 0, 51);
+    font-family: monospace;
+    margin-top: 20px;
+}
+#para{
+    font-size: 50px;
+    color: rgb(100, 15, 180);
+    font-family:  Tahoma;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#pagelogo{
+    width: 30%;
+    border-radius: 100%;
+    
+    margin: 5%  30%  ;
+
+}
+.name2{
+    font-size: 50px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: rgba(75, 206, 140, 0.61);
+}

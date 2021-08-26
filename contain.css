@@ -1,0 +1,178 @@
+#background1{
+    width: 100%;
+    justify-content: center;
+    max-height:40%;
+    
+    
+    position: relative;
+    
+}
+
+    
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    height: 60%;
+
+
+}
+body{
+    background-color: rgb(253, 253, 253);
+   
+}
+
+.icons{
+    
+    padding-left:20%;
+    background-color: rgb(252, 252, 252);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+   
+}
+
+.smicon1{
+    width: 100px;
+    margin: 30px;
+    
+    border-radius: 5px;
+}
+
+.smicon2{
+    width: 100px;
+    margin: 30px;
+    
+    border-radius: 5px;
+}
+
+
+.smicon3{
+    width: 100px;
+    margin: 30px;
+    
+    border-radius: 5px;
+
+}
+
+.smicon4{
+    width: 100px;
+    margin: 30px;
+    
+    border-radius: 5px;
+
+}
+#wellogo{
+    width: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    border: solid rgb(97, 44, 97);
+    border-radius: 100%;
+}
+.welcomenote{
+    border-radius: 50px;
+    padding:0px 15px;
+    position: absolute;
+    margin-left: 70%;
+    
+    
+}
+
+h1{
+    font-family: 'Trebuchet MS';
+    color: rgb(14, 80, 1);
+    text-align: center;
+    stroke: rgb(24, 2, 65);
+    
+}
+
+#tech-mentors{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(48, 0, 32);
+    font-family: Impact;
+    margin-bottom: 0%;
+}
+#sub-part{
+    text-align: center;
+    margin: 0%;
+    font-size: 18px;
+    color: rgb(80, 80, 80);
+    font-family:' sans-serif';
+}
+h2{
+    font-family: 'Courier New';
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+h3{
+    margin: 0%;
+    font-family: 'Segoe UI';
+    padding: 0px 50px;
+    color: rgb(255, 10, 10);
+}
+h5{
+    margin: 0%;
+    padding:0px 30px;
+    font-size:15pxl;
+    color: rgb(112, 112, 112);
+    text-align: left;
+}
+
+.lower-side{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+}
+.faculty{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%  ;
+    height: 300px;
+    
+    padding: 5px; 
+}
+#fac1,#fac2,#fac3,#fac4{
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 30px;
+     
+}
+.fac-names{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    overflow: hidden;
+    background-color: rgb(8, 41, 1);
+   
+}
+#bio,#chem,#cs,#engi{
+    
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    color: #eeedbe;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.fac-names a:hover{
+    background-color: rgb(0, 126, 40);
+    
+}
+.student-login{
+    
+    padding:  15px 0px 15px 0px;
+    height: 50px;
+    text-align: center;
+    margin: 0%;
+    font-size: 32px;
+    font-family: monospace;
+    color: rgb(49, 0, 33);
+    background-color: rgba(217, 205, 245, 0.753);
+   
+}
+
+
+
